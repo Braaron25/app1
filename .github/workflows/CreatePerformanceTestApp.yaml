@@ -12,7 +12,7 @@ on:
       name:
         description: Name
         required: true
-        default: '<app1>.PerformanceTest'
+        default: 'app1.PerformanceTest'
       publisher:
         description: Publisher
         required: true
