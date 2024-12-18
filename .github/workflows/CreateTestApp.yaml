@@ -12,7 +12,7 @@ on:
       name:
         description: Name
         required: true
-        default: '<YourAppName>.Test'
+        default: '<app1>.Test'
       publisher:
         description: Publisher
         required: true
