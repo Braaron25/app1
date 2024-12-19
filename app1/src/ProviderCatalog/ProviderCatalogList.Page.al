@@ -4,8 +4,9 @@ page 50201 ProviderCatalogList
     Caption = 'ProviderCatalogList';
     PageType = List;
     SourceTable = ProviderCatalog;
-    UsageCategory = Documents;
-    Editable = false;
+    UsageCategory = Lists;
+    //Editable = false;
+    CardPageId = ProviderCatalogCard;
 
     layout
     {

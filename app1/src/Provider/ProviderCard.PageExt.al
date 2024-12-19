@@ -16,4 +16,11 @@ pageextension 50200 ProviderCard extends "Vendor Card"
             }
         }
     }
+
+    trigger OnOpenPage();
+    var
+        CodeUnit: Codeunit ProviderCatalog;
+    begin
+        CodeUnit.InsertDefaultValues();
+    end;
 }

@@ -9,7 +9,9 @@
             "serverInstance": "BC",
             "port": 7049,
             "tenant": "default",
-            "authentication": "UserPassword"
+            "authentication": "UserPassword",
+            //"startupObjectId": 50201,
+            //"startupObjectType": "Page",
         }
     ]
 }
