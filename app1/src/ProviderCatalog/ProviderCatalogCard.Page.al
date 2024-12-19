@@ -17,15 +17,16 @@ page 50200 ProviderCatalogCard
                 {
                     ToolTip = 'Specifies the value of the Code field.', Comment = '%';
                 }
-                field(Description; Rec.Description)
-                {
-                    ToolTip = 'Specifies the value of the Description field.', Comment = '%';
-                }
                 field(Name; Rec.Name)
                 {
                     ToolTip = 'Specifies the value of the Name field.', Comment = '%';
                 }
+                field(Description; Rec.Description)
+                {
+                    ToolTip = 'Specifies the value of the Description field.', Comment = '%';
+                }
             }
         }
     }
+
 }

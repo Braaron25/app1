@@ -36,8 +36,15 @@ report 50200 SalesInvoice
         {
             Type = Word;
             LayoutFile = './src/Report/layouts/SalesInvoice_WORDLayout.docx';
-            Caption = 'SalesInvoiceList';
+            Caption = 'Sales Invoice List Word Report';
             Summary = 'An example of an Word Layout.';
+        }
+        layout(SalesInvoice_EXCELayout)
+        {
+            Type = Excel;
+            LayoutFile = './src/Report/layouts/SalesInvoice_EXCELayout.xlsx';
+            Caption = 'Sales Invoice List Excel Report';
+            Summary = 'An example of an Excel Layout.';
         }
     }
 }
