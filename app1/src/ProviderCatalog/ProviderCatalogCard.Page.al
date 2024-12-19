@@ -15,15 +15,18 @@ page 50200 ProviderCatalogCard
 
                 field("Code"; Rec."Code")
                 {
-                    ToolTip = 'Specifies the value of the Code field.', Comment = '%';
+                    Caption = 'Code';
+                    ToolTip = 'Code of vendor catalog';
                 }
                 field(Name; Rec.Name)
                 {
-                    ToolTip = 'Specifies the value of the Name field.', Comment = '%';
+                    Caption = 'Name';
+                    ToolTip = 'Name of vendor catalog';
                 }
                 field(Description; Rec.Description)
                 {
-                    ToolTip = 'Specifies the value of the Description field.', Comment = '%';
+                    Caption = 'Description';
+                    ToolTip = 'Description of vendor catalog';
                 }
             }
         }

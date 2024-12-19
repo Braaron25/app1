@@ -7,9 +7,9 @@ codeunit 50200 ProviderCatalog
         Clear(ProviderCatalog);
         if not ProviderCatalog.IsEmpty then
             exit;
-        InsertProviderCatalog('1', 'Bienes', 'Proveedor de bienes');
-        InsertProviderCatalog('2', 'Servicios', 'Proveedor de servicios');
-        InsertProviderCatalog('3', 'Recursos', 'Proveedor de recursos');
+        InsertProviderCatalog('1', 'Manufacturer', 'Manufacturer vendor');
+        InsertProviderCatalog('2', 'Services', 'Services vendor');
+        InsertProviderCatalog('3', 'Retail', 'Retail vendor');
     end;
 
     local procedure InsertProviderCatalog(Code: Code[20]; Name: Text[50]; Description: Text[200])
