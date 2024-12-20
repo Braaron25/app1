@@ -32,4 +32,11 @@ page 50201 ProviderCatalogList
             }
         }
     }
+
+    trigger OnOpenPage();
+    var
+        CodeUnit: Codeunit ProviderCatalog;
+    begin
+        CodeUnit.InsertDefaultValues();
+    end;
 }
