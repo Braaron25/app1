@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id":  "6990a116-6df9-4477-b7d2-d7fb04ffebf2",
+      "publisher":  "My Name",
+      "name":  "My Base App",
+      "version":  "1.0.38.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
